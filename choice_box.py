@@ -76,7 +76,7 @@ def make_list_or_none(obj, cast_type=None):
             except Exception:
                 raise Exception("Value {} cannot be converted to type: {}".format(obj, cast_type))
             except e:
-				print("LES HACK FTW")
+                print("LES HACK FTW")
         ret_val = [ret_val,]
     # Convert all elements to cast_type
     if cast_type is not None:
